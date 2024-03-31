@@ -8,6 +8,6 @@ if name != '' and gender != '' and age != '':
   s = st.button('NEXT')
 else:
   st.warning('Vui long nhap day du thong tin')
-if 's' in local:
+if 's' in locals():
   if s :
     st.clear()
