@@ -10,4 +10,4 @@ else:
   st.warning('Vui long nhap day du thong tin')
 if 's' in locals():
   if s :
-    st.clear()
+    st.text('NEXT button clicked')
